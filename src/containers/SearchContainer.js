@@ -8,5 +8,8 @@ var SearchContainer = () => {};
 // dispatchers with your search component props.
 //HINT: use react-redux 'connect' method to generate a container component from
 //state and dispatch mappings.
+connect(mapstate,mapdispatch)(component)
 
 export default SearchContainer;
+
+method ===> dispatch(method)

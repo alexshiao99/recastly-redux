@@ -35,6 +35,7 @@ class App extends React.Component {
         currentVideo: videos[0]
       })
     );
+
   }
 
   //TODO: swap out the React components below for the container components

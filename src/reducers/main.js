@@ -9,5 +9,5 @@ var rootReducer = () => {};
 //HINT: you'll need to combine the other two reducers in this
 //  app into a single reducer using the 'combineReducers' method
 //  listed above.
-
+rootReducer = combineReducers({currentVideo: currentVideo, videos: videoList});
 export default rootReducer;
